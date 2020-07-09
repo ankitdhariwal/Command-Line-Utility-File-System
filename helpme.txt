@@ -1,0 +1,17 @@
+NODE BASED COMMNAD LINE UTILITY 
+
+    1. view as tree => node pbc view src -t
+        -> View file as tree structure
+
+    2. view as list => node pbc view src -f
+        / / /
+        view as File structure
+
+    3. untreefy => node pbc untreefy src dest
+    	- It is like compression to src to dest and will create the metadata.json
+            
+    4. treefy => node pbc treefy src dest
+    	- it will create the file structure again using metadata.json
+
+    // src means to provide the path
+
